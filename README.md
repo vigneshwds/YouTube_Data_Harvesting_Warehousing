@@ -1,8 +1,7 @@
-# YouTube Data Harvesting and Warehousing
-You_tube data Harvesting and Warehousing using SQL and Streamlit
+# Youtube data Harvesting and Warehousing using SQL and Streamlit
 
 ## Project Overview
-This project is designed to harvest data from YouTube channels using the YouTube Data API and store it in a PostgreSQL database. It allows users to gather and analyze data such as channel information, video details, and comments for various YouTube channels. The data is then made available for further analysis and visualization.
+This project demonstrates how to harvest data from YouTube and store it in a PostgreSQL database. It uses the YouTube Data API to collect information about channels, videos, and comments. The data is then stored in a PostgreSQL database for analysis and retrieval.
 
 ## Features
 - Retrieve channel information including name, subscriber count, view count, and total videos.
@@ -17,6 +16,11 @@ This project is designed to harvest data from YouTube channels using the YouTube
 - Streamlit
 - Pandas
 - Google API Client Library
+
+## Prerequisites
+- Python 3.7 or higher
+- PostgreSQL
+- Google API Key with access to YouTube Data API
 
 - ## Contact
 If you have any questions or feedback, please reach out to (mailto:vigneshoffical861@gmail.com).
