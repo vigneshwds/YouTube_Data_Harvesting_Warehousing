@@ -16,6 +16,7 @@ This project demonstrates how to harvest data from YouTube and store it in a Pos
 - Streamlit
 - Pandas
 - Google API Client Library
+- Plotly Express
 
 ## Prerequisites
 - Python 3.7 or higher
