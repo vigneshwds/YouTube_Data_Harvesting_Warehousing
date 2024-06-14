@@ -18,10 +18,28 @@ This project demonstrates how to harvest data from YouTube and store it in a Pos
 - Google API Client Library
 - Plotly Express
 
+## Setup and Installation
 ## Prerequisites
-- Python 3.7 or higher
-- PostgreSQL
-- Google API Key with access to YouTube Data API
+1. Python 3.7 or higher
+2. PostgreSQL
+3. Google API Key with access to YouTube Data API
+
+## Install the required Python packages
+1. pip3 install google-client-api
+2. pip install psycopg2
+3. pip install pandas
+4. pip install streamlit
+5. pip install plotly_express==0.4.0
+
+## Set up PostgreSQL
+1. Create a database in PostgreSQL.
+2. Update the database connection details in the script (host, user, password, database, port).
+
+## Obtain a YouTube Data API key
+1. Go to the Google Developers Console.
+2. Create a project and enable the YouTube Data API.
+3. Create credentials to get an API key.
+4. Replace the api_key in the Connect_Api function with your API key.
 
 - ## Contact
-If you have any questions or feedback, please reach out to (mailto:vigneshoffical861@gmail.com).
+If you have any questions or feedback, please reach out to vigneshoffical861@gmail.com.
